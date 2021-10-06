@@ -128,9 +128,9 @@ footer > #bottom {
 
 #contacts-tab {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+  padding: 5px 20px;
 
   position: absolute;
   left: 87.92%;
@@ -141,24 +141,4 @@ footer > #bottom {
   /* eggshell */
   background: #FFFBF0;
   border-radius: 50px 0px 0px 50px;
-}
-
-#contacts-tab > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 20px;
-
-  position: static;
-  width: 174px;
-  height: 30px;
-  left: 0px;
-  top: 0px;
-
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
 }
